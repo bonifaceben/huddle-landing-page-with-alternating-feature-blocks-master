@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.herocontainer{
+    flex-wrap: wrap;
+}
+
+.section1{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    
+    background-color:  hsl(193, 100%, 96%);
+    align-content: center;
+    
+
+}
+.container{
+ padding: 3em 8em;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but1 button{
+    border: none;
+    /* padding: 1em; */
+    background-color: white;
+    border-radius: 20px;
+    width: 10em;
+    height: 2.5em;
+    color: black;
+    box-shadow: 0 0 4px 0 rgb(152, 152, 152);
+    cursor: pointer;
+}
+.logo img{
+    width: 10em;
+}
+
+.textandimg{
+    display: flex;
+    gap: 4em;
+    margin-top: 3rem;
+    
+    
+
+}
+
+.img2 img{
+    width: 35rem;
+    height: 25rem;
+    
+}
+
+.text1{
+    margin-top: 5rem;
+}
+
+.text1 h2{
+    font-size: 2rem;
+
+}
+.text1 p{
+    margin-top: 2rem;
+    font-size: 1.4em;
+}
+
+.text1 button{
+    padding: 10px;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    width: 12rem;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0 0 4px 0 rgb(152, 152, 152);
+    cursor: pointer;
+}
+
+.secondtext{
+    padding: 3em 8em;
+    display: flex;
+}
+
+.secondtext img{
+    width: 20em;
+}
+.texcal{
+    display: flex;
+    background-color: white;
+    border-radius: 1em;
+    padding: 2rem;
+    box-shadow: 0 0 10px 0 rgb(218, 216, 216);
+    gap: 10em;
+    align-items: center;
+}
+.texcal p{
+    margin-top: 20px;
+}
+
+.readytobuld{
+    width: 45%;
+    height: 12rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.5em;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: -50px;
+    box-shadow: 0 0 10px 0 rgb(218, 216, 216);
+    position: relative;
+    
+    
+}
+.readytobuld button{
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 20px;
+    border: none;
+    width: 14rem;
+    
+    background-color: hsl(322, 100%, 66%);
+}
+.readytobuld h2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: hsl(192, 100%, 9%);
+
+}
+
+.fottercont{
+    padding: 9rem 5rem;
+    display: flex;
+    gap: 4em;
+
+}
+
+
+.left h1{
+    color: white;
+    font-size: 2em;
+    
+}
+.location{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    
+}
+.location img{
+    width: 1em;
+}
+.location p{
+    color: white;
+    font-size: 1em;
+   
+    
+    
+}
+.second{
+    padding-top: 3em;
+
+}
+.second a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 1em;
+}
+
+.last i{
+    color: white;
+    padding-top: 3em;
+    font-size: 1.5em;
+    margin-bottom: 3em;
+   
+}
+.last p{
+    color: white;
+    font-size: 1em;
+}
+.last i:hover{
+    color:  hsl(322, 100%, 66%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    .img2 img{
+        width: 20rem;
+        height: 17rem;
+        margin-top: 30px;
+    }
+
+    .texcal{
+        display: block;
+     
+    }
+    .text1 h2{
+        font-size: 24px;
+    }
+    .text1 p{
+        font-size: 18px;
+    }
+    .textandimg{
+        display: block;
+       
+    }
+    .container{
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
+
+       .secondtext img{
+        width: 15em;
+
+}
+
+.last{
+    align-items: center;
+    text-align: center;
+}
+
+.last i{
+    margin-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+.secondtext{
+    padding: 20px 30px;
+    display: flex;
+}
+
+.readytobuld{
+    width: 90%;
+    margin-top: 100px;
+    
+}
+
+footer{
+    width: 100%;
+}
+
+.fottercont{
+    padding: 160px 30px 20px 30px;
+    display: block;
+}
+
+.secondtext img{
+    margin-top: 50px;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 885px){
+    .textandimg{
+        display: block;
+     
+    }
+
+
+    .texcal{
+        display: block;
+        
+    } 
+    
+    .img2 img{
+        margin-top: 40px;
+    }
+
+}
